@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+}
+*{
+    margin:0;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    padding: 40px 20px;
+    height:30px;
+}
+#container > div {
+    height:160px;
+    background-size: cover;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    position:relative;
+   
+}
+#container>div>img{
+    height:90%;
+    width:230px;
+    cursor:pointer;
+    transition:0.4s;
+  
+}
+#container>div>img:hover{
+    transform:scaleX(1.1) scaleY(1.1);
+}
+.title{
+    color:white;
+    font-weight: 500;
+    font-size:12px;
+}
+.channel-name{
+    color:gray;
+    font-size: 11px;
+}
+.views-count{
+    color:gray;
+    font-size: 11px;
+}
+/* #container> div > b {
+    position:absolute;
+    top:10px;
+    right:10px;
+    background-color: black;
+    border-radius: 2px;
+    color:white;
+    font-size: 6px;
+    
+} */
+#container > div > b {
+    position: absolute;
+    right: 5px;
+    bottom:20px;
+    background-color: black;
+    padding: 1px;
+    border-radius: 2px;
+    font-weight: 600;
+    color: white ;
+    font-size: 14px;
+ 
+    padding: 2px 5px;
+}

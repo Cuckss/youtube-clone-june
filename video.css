@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+}
+*{
+    margin:0;
+}
+.video-details{
+    
+    display:flex;
+    padding:10px 20px;
+    justify-content:space-between;
+    align-items: center;
+    width:580px;
+    background-color: rgb(53, 52, 52);
+    padding:20px;
+}
+.stats{
+   
+    display:flex;
+    align-items: center;
+    gap:20px;
+}
+.like{
+    display:flex;
+    gap:10px;
+}
+.like-container{
+   
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+    padding-right: 20px;
+    align-items: center;
+}
+.owner-details{
+    display:flex;
+    flex-direction: column;
+    color:gray;
+}
+.profile{
+    display:flex;
+    gap:20px;
+}
+.channel-logo{
+    width:50px;
+    border-radius:50%;
+    margin-left: 0%;
+}
+#title{
+    margin:10px;
+}
+.comment>img{
+    width:40px;
+    height:8vh;
+    border-radius: 50%;
+   
+
+}
+.comment{
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+    align-items: center;
+    color:rgb(144, 139, 139);
+}
+.like{
+    cursor:pointer;
+}
